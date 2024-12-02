@@ -1,5 +1,10 @@
-num1 =int(input("enter 1st number : "))
+n = int(input("Enter the n number : "))
 
-num2 =int(input("enter 2nd number : "))
+sum= 0
+i=0
 
-print("sum = ", num1+num2)
+while i<=n:
+    sum+=i
+    i+=1
+
+print("total sum = ",sum)
